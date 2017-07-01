@@ -1,0 +1,118 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+    display: block;
+}
+
+body {
+    background-color: antiquewhite;
+    padding: 5%;
+}
+
+#container {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+@font-face {
+    font-family: 'Bickham Script Pro Bold';
+    src: url('../fonts/bickham_script_pro_bold.ttf');
+}
+
+@font-face {
+    font-family: 'Princess and the Frog';
+    src: url('../fonts/princess_and_the_frog.ttf');
+}
+
+@media (min-width: 320px) {
+    h1 {
+        font-family: 'Bickham Script Pro Bold', cursive;
+        font-size: 4.5rem;
+    }
+
+    h2 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 2rem;
+    }
+
+    p {
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .headingfont {
+        font-family: 'Bickham Script Pro Bold';
+        font-size: 2.25rem;
+    }
+
+    .subheadingfont {
+        font-family: 'Princess and the Frog';
+        font-size: 1rem;
+    }
+
+    .b5ce94 {
+        color: palegreen;
+    }
+
+    .efefbd {
+        color: lightgreen;
+    }
+
+    .dede9c {
+        color: mediumseagreen;
+    }
+
+    .d84a594 {
+        color: seagreen;
+    }
+
+    .a0c076 {
+        color: yellowgreen;
+    }
+
+    .textlink {
+        color: yellowgreen;
+        text-decoration: underline;
+    }
+
+}
+
+@media (min-width: 750px) {
+    header img {
+        float: left;
+        width: 25%;
+    }
+
+    h1 {
+        font-size: 5rem;
+        float: right;
+    }
+
+    h2 {
+        font-size: 2.25rem;
+    }
+
+    aside {
+        width: 60%;
+        float: left;
+    }
+
+    aside img {
+        display: inline-block;
+        max-width: 30%;
+    }
+
+    main {
+        width: 40%;
+        float: right;
+    }
+
+}
